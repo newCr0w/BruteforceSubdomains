@@ -21,7 +21,7 @@ def resolverIP(url):
 def main(url, wordlist):
     print(pyfiglet.figlet_format(f"{sys.argv[0]}"))
     print(f"STARTED: [ {str(datetime.datetime.now())[:-7]} ]")
-    verify = "103.224.182.233"
+    verify = "103.224.182.233"  #Put the DNS error ip here
     blue = "\033[1;94m"
     normal = "\033[0;0m"
     urlIP = resolverIP(url)
