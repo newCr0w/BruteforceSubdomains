@@ -1,0 +1,5 @@
+dns.resolver
+argparse
+pyfiglet
+datetime
+sys
